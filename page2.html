@@ -5,42 +5,33 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Flex page with growing child</title>
+    <title>Colors HSL</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="page2.css">
 </head>
 
 <body>
 
 <div class="main-container">
     <div class="header">
-        HTML Sandbox
+        Colors - HSL
     </div>
     <div class="main-content">
-        <table aria-describedby="content table">
-            <thead>
-                <tr>
-                    <th id="page">Page</th>
-                    <th id="desc">Description</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><a href="page1.html">page1.html</a></td>
-                    <td>Flex page with growing child and dynamic (height) child </td>
-                </tr>
-                <tr>
-                    <td><a href="page2.html">page2.html</a></td>
-                    <td>Colors </td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="content">
+            <div class="hue"></div>
+            <div class="saturation"></div>
+            <div class="lightness"></div>
+            <div class="main"></div>
+        </div>
     </div>
 </div>
+
+<script src="page2.js"></script>
 
 </body>
 </html>
