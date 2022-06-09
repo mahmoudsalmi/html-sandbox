@@ -5,8 +5,9 @@ html {
     --color-primary: #20435C;
     --color-primary-light: #4ba9e3;
 
-    --color-secondary: #C3E1E5;
-    --color-secondary-light: #adc7cc;
+    --color-secondary: hsl(187, 40%, 83%);
+    --color-secondary-light: hsl(187, 23%, 74%);
+    --color-secondary-lighter: hsl(187, 23%, 90%);
 
     --color-light: #FFF;
     --color-dark: #4E5966;
@@ -53,7 +54,7 @@ a:hover {
 }
 
 .main-content {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     flex-grow: 1;
     padding: 2rem;
     overflow: hidden;
@@ -81,7 +82,6 @@ a:hover {
 
 .main-content table td {
     border-right: 1px solid var(--color-dark);
-    font-size: 1.2rem;
 }
 
 .main-content table td, .main-content table th {
